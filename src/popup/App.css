@@ -1,0 +1,20 @@
+body {
+  background-color: #282c34;
+}
+
+.App {
+  min-height: 300px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFF;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.app-button + .app-button {
+  margin-top: 20px;
+}
