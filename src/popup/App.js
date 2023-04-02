@@ -2,8 +2,8 @@ import React, { useState, useCallback } from "react"
 import Button from "../components/Button";
 
 function App() {
-  const [reactDocUrl, setReactDocUrl] = useState('https://reactjs.org/');
-  const [webpackDocUrl, setWebpackDocUrl] = useState('https://webpack.js.org/');
+  const [reactDocUrl, setReactDocUrl] = useState('https://react.dev/learn');
+  const [webpackDocUrl, setWebpackDocUrl] = useState('https://webpack.js.org/guides/');
 
   const openReactDoc = useCallback((e) => {
     chrome.tabs.create({ url: reactDocUrl });
