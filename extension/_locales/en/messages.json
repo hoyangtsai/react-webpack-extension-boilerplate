@@ -1,0 +1,7 @@
+{
+  "appName": { "message": "Extension Demo", "description": "" },
+  "appDesc": {
+    "message": "A extension boilerplate",
+    "description": ""
+  }
+}
