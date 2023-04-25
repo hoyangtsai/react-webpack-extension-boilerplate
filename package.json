@@ -1,7 +1,7 @@
 {
-  "name": "extension-react-webpack-boilerplate",
+  "name": "react-webpack-extension-boilerplate",
   "version": "1.0.0",
-  "description": "A simple web extension with react and webpack",
+  "description": "A simple browser extension boilerplate with react and webpack",
   "scripts": {
     "dev": "npm run clean && webpack --mode development",
     "build": "webpack --mode production",
@@ -17,7 +17,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hoyangtsai/react-webpack-boilerplate.git"
+    "url": "git+https://github.com/hoyangtsai/react-webpack-extension-boilerplate.git"
   },
   "dependencies": {
     "react": "^18.2.0",
