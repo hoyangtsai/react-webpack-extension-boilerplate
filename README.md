@@ -1,6 +1,6 @@
-# Extension React Webpack boilerplate
+# React Webpack Extension Boilerplate
 
-A simple web extension with react and webpack
+A simple browser extension boilerplate with react and webpack
 
 ## Features
 
