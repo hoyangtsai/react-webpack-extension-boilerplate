@@ -1,5 +1,6 @@
-body {
-  background-color: #282c34;
+html, body {
+  margin: 0;
+  padding: 0;
 }
 
 .App {
@@ -17,4 +18,10 @@ h2 {
 
 .app-button + .app-button {
   margin-top: 20px;
+}
+
+.styler {
+  position: absolute;
+  top: 12px;
+  right: 8px;
 }
