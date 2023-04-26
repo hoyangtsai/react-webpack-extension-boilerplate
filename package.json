@@ -4,7 +4,7 @@
   "description": "A simple browser extension boilerplate with react and webpack",
   "scripts": {
     "dev": "npm run clean && webpack --mode development",
-    "build": "webpack --mode production",
+    "build": "npm run clean && webpack --mode production",
     "clean": "rm -rf dist"
   },
   "keywords": [

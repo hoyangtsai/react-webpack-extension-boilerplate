@@ -17,7 +17,7 @@ module.exports = (env, argv) => {
       filename: '[name].js'
     },
     mode: isDevelopment ? 'development' : 'production',
-    watch: true,
+    watch: isDevelopment,
     devtool: 'cheap-module-source-map',
     module: {
       rules: [
